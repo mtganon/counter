@@ -1,6 +1,6 @@
     var life = {};
 
-    life.totals = [40]
+    life.totals = [20]
 
     window.onload = function() {
 
@@ -43,7 +43,7 @@
     document.getElementById("minusFiveLife").onclick = minusFive;
 
     function reset() {
-        life.totals = [40]
+        life.totals = [20]
         document.getElementById("lifeOne").innerHTML = life.totals[0]
     };
 
