@@ -1,0 +1,87 @@
+<html>
+<head>
+    <title>counter</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <style>
+    *, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+        .success {
+            background-color: green;
+            color: white;
+        }
+        .danger {
+            background-color: red;
+            color: white;
+        }
+        .info {
+            background-color: blue;
+            color: white;
+        }
+
+        .btn {
+            display: inline-block;
+            text-decoration: none;
+            font-weight: 700;
+            text-align: center;
+            padding: 1em;
+            border-radius: 10px;
+        }
+
+        .player {
+            width: 240px;
+        }
+
+        .row {
+            width: 100%;
+        }
+
+        .row .btn {
+            width: 115px;
+            float: left;
+            margin-bottom: 10px;
+        }
+
+        .row .btn:first-child {
+            margin-right: 4px;
+        }
+
+        .row .btn:last-child {
+            margin-left: 5px;
+        }
+
+        .count {
+            font-size: 5em;
+            text-align: center;
+        }
+
+        .reset {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <script type="text/javascript">
+
+    </script>
+    <div class="player">
+        <a class="btn info reset" id="resetLife" href="#">Reset</a>
+
+        <div class="row">
+            <div class="count" id="lifeOne">40</div>
+        </div>
+        <div class="row">
+            <a class="btn success" id="addOneLife" href="#">+ 1</a>
+            <a class="btn success" id="addFiveLife" href="#">+ 5</a>
+        </div>
+        <div class="row">
+            <a class="btn danger" id="minusOneLife" href="#">- 1</a>
+            <a class="btn danger" id="minusFiveLife" href="#">- 5</a>
+        </div>
+
+
+    </div>
+    <script src="fastclick.js"></script>
+    <script src="main.js"></script>
+</body></html>
