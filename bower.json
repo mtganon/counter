@@ -1,0 +1,26 @@
+{
+  "name": "mtganon/counter",
+  "version": "0.0.0",
+  "homepage": "https://github.com/mtganon/counter",
+  "authors": [
+    "steven jacobs @stvnjacobs"
+  ],
+  "description": "life counter",
+  "keywords": [
+    "mtg",
+    "magicthegathering",
+    "life",
+    "counter"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "~3.0.1",
+    "fastclick": "~1.0.2"
+  }
+}
